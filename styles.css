@@ -1,0 +1,934 @@
+/* ==========================================================================
+   1. FUENTES (INTER & IBM PLEX MONO)
+   ========================================================================== */
+
+/* --- Inter Variable (Texto Principal) --- */
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/InterVariable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/InterVariable-Italic.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --- IBM Plex Mono (Código y Detalles - Todas las Variantes) --- */
+/* Thin (100) */
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-Thin.woff2') format('woff2'); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-ThinItalic.woff2') format('woff2'); font-weight: 100; font-style: italic; font-display: swap; }
+
+/* ExtraLight (200) */
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-ExtraLight.woff2') format('woff2'); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-ExtraLightItalic.woff2') format('woff2'); font-weight: 200; font-style: italic; font-display: swap; }
+
+/* Light (300) */
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-Light.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-LightItalic.woff2') format('woff2'); font-weight: 300; font-style: italic; font-display: swap; }
+
+/* Regular (400) */
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+
+/* Text (400 - Variante Pantalla) */
+@font-face { font-family: 'IBM Plex Mono Text'; src: url('assets/fonts/IBMPlexMono-Text.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Mono Text'; src: url('assets/fonts/IBMPlexMono-TextItalic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+
+/* Medium (500) */
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-MediumItalic.woff2') format('woff2'); font-weight: 500; font-style: italic; font-display: swap; }
+
+/* SemiBold (600) */
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-SemiBoldItalic.woff2') format('woff2'); font-weight: 600; font-style: italic; font-display: swap; }
+
+/* Bold (700) */
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-BoldItalic.woff2') format('woff2'); font-weight: 700; font-style: italic; font-display: swap; }
+
+
+/* ==========================================================================
+   2. VARIABLES Y TEMA (GRUVBOX)
+   ========================================================================== */
+
+:root,
+html[data-theme="light"],
+body[data-theme="light"],
+[data-theme="light"] {
+  /* Fondos */
+  --gruvbox-bg0-hard: #f9f5d7;
+  --gruvbox-bg0: #fbf1c7;
+  --gruvbox-bg1: #ebdbb2;
+  --gruvbox-bg2: #d5c4a1;
+  --gruvbox-bg3: #bdae93;
+  --gruvbox-bg4: #a89984;
+  
+  /* Texto */
+  --gruvbox-fg0: #282828;
+  --gruvbox-fg1: #3c3836;
+  --gruvbox-fg2: #504945;
+  --gruvbox-fg3: #665c54;
+  --gruvbox-fg4: #7c6f64;
+  
+  /* Acentos Light */
+  --gruvbox-red: #9d0006;
+  --gruvbox-green: #79740e;
+  --gruvbox-yellow: #b57614;
+  --gruvbox-blue: #076678;
+  --gruvbox-purple: #633f8f;
+  --gruvbox-aqua: #427b58;
+  --gruvbox-orange: #af3a03;
+  
+  /* Variantes oscuras para bordes */
+  --gruvbox-dark-red: #cc241d;
+  --gruvbox-dark-green: #98971a;
+  --gruvbox-dark-yellow: #d79921;
+  --gruvbox-dark-blue: #458588;
+  --gruvbox-dark-purple: #8862b1;
+  --gruvbox-dark-aqua: #689d6a;
+  --gruvbox-dark-orange: #d65d0e;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(251, 241, 199, 0.65);
+  --glass-border: rgba(60, 56, 54, 0.1);
+  --glass-blur: 32px;
+}
+
+html[data-theme="dark"],
+body[data-theme="dark"],
+[data-theme="dark"] {
+  /* Fondos */
+  --gruvbox-bg0-hard: #1D2021;
+  --gruvbox-bg0: #282828;
+  --gruvbox-bg1: #3c3836;
+  --gruvbox-bg2: #504945;
+  --gruvbox-bg3: #665c54;
+  --gruvbox-bg4: #7c6f64;
+  
+  /* Texto */
+  --gruvbox-fg0: #fbf1c7;
+  --gruvbox-fg1: #ebdbb2;
+  --gruvbox-fg2: #d5c4a1;
+  --gruvbox-fg3: #bdae93;
+  --gruvbox-fg4: #a89984;
+  
+  /* Acentos Dark */
+  --gruvbox-red: #fb4934;
+  --gruvbox-green: #b8bb26;
+  --gruvbox-yellow: #fabd2f;
+  --gruvbox-blue: #83a598;
+  --gruvbox-purple: #8862b1;
+  --gruvbox-aqua: #8ec07c;
+  --gruvbox-orange: #fe8019;
+  
+  --gruvbox-dark-red: #cc241d;
+  --gruvbox-dark-green: #98971a;
+  --gruvbox-dark-yellow: #d79921;
+  --gruvbox-dark-blue: #458588;
+  --gruvbox-dark-purple: #9062b1;
+  --gruvbox-dark-aqua: #689d6a;
+  --gruvbox-dark-orange: #d65d0e;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(40, 40, 40, 0.55);
+  --glass-border: rgba(251, 241, 199, 0.1);
+  --glass-blur: 32px;
+}
+
+/* ==========================================================================
+   3. RESET & BASE GLOBAL
+   ========================================================================== */
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: var(--gruvbox-bg0-hard);
+  color: var(--gruvbox-fg0);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 17px;
+  line-height: 1.75;
+  letter-spacing: -0.011em;
+  font-weight: 400;
+  transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+              color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  color: var(--gruvbox-fg0);
+  opacity: 0.95;
+}
+
+#quarto-content ul, 
+#quarto-content ol {
+  color: var(--gruvbox-fg0);
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--gruvbox-bg0); }
+::-webkit-scrollbar-thumb {
+  background: var(--gruvbox-bg3);
+  border: 2px solid var(--gruvbox-bg0);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--gruvbox-orange); }
+
+::selection { background-color: var(--gruvbox-yellow); color: var(--gruvbox-bg0-hard); }
+
+/* ==========================================================================
+   4. TIPOGRAFÍA SUIZA (HEADINGS & LINKS)
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  margin-top: 0;
+  color: var(--gruvbox-fg0);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  background: linear-gradient(135deg, var(--gruvbox-fg0) 20%, var(--gruvbox-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+h3 { font-size: 1.75rem; font-weight: 700; }
+h4 { font-size: 1.35rem; }
+h5, h6 { font-size: 1.1rem; }
+
+/* Enlaces */
+a {
+  color: var(--gruvbox-blue);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--gruvbox-yellow);
+  border-bottom-color: var(--gruvbox-yellow);
+}
+
+/* Links inline (IBM Plex Mono Medium) */
+#quarto-content a:not(.btn) {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+/* Citas / Blockquotes */
+blockquote {
+  border-left: 4px solid var(--gruvbox-yellow);
+  background: linear-gradient(90deg, var(--glass-border) 0%, transparent 100%);
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  font-style: italic;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+blockquote::before {
+  content: '"';
+  position: absolute;
+  top: -10px; left: 10px;
+  font-size: 4rem;
+  color: var(--gruvbox-yellow);
+  opacity: 0.2;
+  font-family: serif;
+}
+
+/* ==========================================================================
+   5. LAYOUT & NAVEGACIÓN
+   ========================================================================== */
+
+#quarto-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Navbar */
+.navbar {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(var(--glass-blur)) saturate(180%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
+  border-bottom: 1px solid var(--glass-border);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  font-size: 1.5rem;
+  color: var(--gruvbox-fg0) !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--gruvbox-fg1) !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem !important;
+  position: relative;
+}
+
+.navbar-nav .nav-link::before {
+  content: '';
+  position: absolute;
+  top: 10%; left: 0;
+  width: 2px; height: 0%;
+  background: var(--gruvbox-blue);
+  transition: height 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover { color: var(--gruvbox-fg0) !important; }
+.navbar-nav .nav-link:hover::before { height: 80%; }
+
+/* Title Banner */
+.quarto-title-banner {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border-left: 8px solid var(--gruvbox-red);
+  padding: 4rem 0 4rem 2rem;
+  margin-bottom: 4rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.quarto-title-banner .title {
+  color: var(--gruvbox-fg0);
+  font-weight: 900;
+}
+
+/* Footer */
+.nav-footer {
+  background-color: var(--gruvbox-bg0);
+  border-top: 4px solid var(--gruvbox-purple);
+  color: var(--gruvbox-fg4);
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+.nav-footer-center p { display: inline-block; margin: 0 auto; }
+
+/* Theme Toggle */
+#theme-toggle {
+  position: fixed;
+  bottom: 32px; right: 32px;
+  z-index: 1000;
+  background: linear-gradient(135deg, var(--gruvbox-bg0) 0%, var(--gruvbox-bg1) 100%);
+  border: 2px solid var(--gruvbox-yellow);
+  color: var(--gruvbox-yellow);
+  width: 50px; height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+#theme-toggle:hover {
+  transform: scale(1.1) rotate(15deg);
+  background: var(--gruvbox-yellow);
+  color: var(--gruvbox-bg0-hard);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+/* Sidebar & TOC */
+.sidebar {
+  background: var(--glass-bg);
+  border-left: 4px solid var(--gruvbox-aqua);
+  padding: 1.5rem;
+  border-radius: 0 6px 6px 0;
+}
+
+#TOC .nav-link, nav[role="doc-toc"] ul li a {
+  color: var(--gruvbox-fg4) !important;
+  border-left: 2px solid transparent;
+  padding-left: 10px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+#TOC .nav-link:hover, nav[role="doc-toc"] ul li a:hover {
+  color: var(--gruvbox-blue) !important;
+  border-left-color: 2px solid var(--gruvbox-blue);
+  background-color: rgba(131, 165, 152, 0.05);
+}
+
+#TOC .nav-link.active, #TOC .active > .nav-link, nav[role="doc-toc"] ul li a.active {
+  color: var(--gruvbox-purple) !important;
+  background-color: rgba(161, 52, 251, 0.1) !important;
+  border-left: 4px solid var(--gruvbox-purple) !important;
+  font-weight: 700 !important;
+  padding-left: 12px;
+}
+
+/* TOC: Pesos de fuente por nivel */
+#TOC li { font-family: 'IBM Plex Mono', monospace; }
+#TOC > ul > li > a { font-weight: 600; }
+#TOC > ul > li > ul > li > a { font-weight: 500; }
+#TOC > ul > li > ul > li > ul > li > a { font-weight: 400; }
+
+/* ==========================================================================
+   6. COMPONENTES (POSTS, BOTONES, IMÁGENES)
+   ========================================================================== */
+
+/* Post Cards */
+.quarto-post {
+  background: linear-gradient(135deg, var(--gruvbox-bg0) 0%, var(--gruvbox-bg1) 100%);
+  border: 1px solid var(--glass-border);
+  border-radius: 6px;
+  border-left: 4px solid var(--gruvbox-blue); 
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.quarto-post:hover {
+  transform: translateX(6px) translateY(-2px);
+  border-left-color: var(--gruvbox-yellow);
+  box-shadow: -6px 6px 0 rgba(0,0,0,0.1), 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.quarto-post .listing-title a {
+  color: var(--gruvbox-fg0) !important;
+  font-weight: 800;
+  font-size: 1.8rem;
+  border-bottom: none;
+}
+
+.quarto-post .listing-description a { color: var(--gruvbox-fg2); margin: 1rem 0; }
+
+.quarto-post .listing-category {
+  background: var(--gruvbox-bg2);
+  color: var(--gruvbox-fg0) !important;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  font-family: 'IBM Plex Mono', monospace; /* ExtraLight */
+}
+
+.quarto-post .listing-category:hover {
+  background: var(--gruvbox-aqua);
+  color: var(--gruvbox-bg0-hard) !important;
+  transform: translateY(-2px);
+}
+
+.quarto-post div.metadata a {
+  color: var(--gruvbox-fg4) !important;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+/* Botones */
+.btn, button:not(#theme-toggle) {
+  background-color: var(--gruvbox-blue);
+  color: var(--gruvbox-bg0-hard);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover, button:not(#theme-toggle):hover {
+  background-color: var(--gruvbox-dark-yellow);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.search-result-header {
+    color: var(--gruvbox-blue);
+}
+
+.search-result-doc search-item document-selectable {
+    background-color: var(--gruvbox-blue);
+}
+
+/* Imágenes */
+img {
+  border-radius: 4px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+img:hover { transform: scale(1.01); }
+
+/* About Page */
+div.about-contents {
+  border-left: 4px solid var(--gruvbox-blue) !important;
+  padding: 12px;
+}
+a.about-link { color: var(--gruvbox-aqua) !important; }
+a.about-link:hover { color: var(--gruvbox-yellow) !important; }
+
+/* Callouts */
+.callout, .callout-note, .callout-warning, .callout-important {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+}
+.callout-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* ==========================================================================
+   7. BLOQUES DE CÓDIGO
+   ========================================================================== */
+
+pre {
+  background: var(--gruvbox-bg0) !important;
+  border: 1px solid var(--glass-border);
+  border-left: 4px solid var(--gruvbox-purple);
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  font-family: 'IBM Plex Mono', monospace;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+code {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9em;
+  color: var(--gruvbox-dark-orange);
+  font-weight: 500; 
+}
+
+/* Sintaxis Código */
+.sourceCode .kw { color: var(--gruvbox-red); font-weight: 700; }
+.sourceCode .dt { color: var(--gruvbox-yellow); font-weight: 600; }
+.sourceCode .dv { color: var(--gruvbox-purple); font-weight: 500; }
+.sourceCode .st { color: var(--gruvbox-green); font-weight: 400; }
+.sourceCode .fu { color: var(--gruvbox-aqua); font-weight: 600; }
+.sourceCode .op { font-weight: 600; }
+.sourceCode .at { font-weight: 200; font-style: italic; }
+.sourceCode .co { color: var(--gruvbox-fg4); font-style: italic; font-weight: 300; opacity: 0.8; }
+
+/* Líneas y Output */
+.line-number, .sourceCode .line-numbers {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  color: var(--gruvbox-fg4);
+  opacity: 0.5;
+}
+
+.cell-output, .output {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  background: var(--gruvbox-bg1);
+  border-left: 3px solid var(--gruvbox-aqua);
+}
+
+.shortcode, kbd, samp, var {
+  font-family: 'IBM Plex Mono Text', monospace;
+  font-weight: 400;
+  background: var(--gruvbox-bg2);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* ==========================================================================
+   8. TABLAS (CORRECCIÓN CON ALTA PRIORIDAD)
+   ========================================================================== */
+
+/* Contenedor responsivo */
+.cell-output-display {
+  overflow-x: auto;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+/* Selección amplia incluyendo las clases de Bootstrap/Pandas (.table, .dataframe)
+   Usamos !important para sobrescribir los estilos nativos de Quarto que fuerzan fondo blanco 
+*/
+table, 
+.table, 
+.dataframe {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0;
+  border: 1px solid var(--glass-border);
+  border-radius: 6px;
+  overflow: hidden;
+  
+  /* OVERRIDE AGRESIVO PARA FONDO Y TEXTO */
+  background-color: var(--gruvbox-bg0) !important;
+  color: var(--gruvbox-fg1) !important;
+  
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Encabezados */
+table thead th,
+.table thead th {
+  background-color: var(--gruvbox-bg2) !important; /* Marrón claro */
+  color: var(--gruvbox-fg0) !important; /* Texto oscuro/claro según tema */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 2px solid var(--glass-border);
+  text-align: left;
+}
+
+/* Celdas del cuerpo */
+table tbody td,
+.table tbody td {
+  background-color: var(--gruvbox-bg0) !important; /* Fondo base del tema */
+  color: var(--gruvbox-fg1) !important; /* Texto con buen contraste */
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--glass-border);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+/* Filas "Striped" (evitar fondo blanco en filas pares/impares) */
+table tbody tr:nth-of-type(odd) td,
+.table tbody tr:nth-of-type(odd) td {
+  background-color: var(--gruvbox-bg0) !important;
+}
+
+table tbody tr:nth-of-type(even) td,
+.table tbody tr:nth-of-type(even) td {
+  /* Oscurece muy ligeramente (3%) el fondo base, funcionando bien en dark y light */
+  background-color: rgba(0, 0, 0, 0.03) !important; 
+}
+
+/* Hover Effect */
+table tbody tr:hover td,
+.table tbody tr:hover td {
+  background-color: var(--gruvbox-bg1) !important;
+  color: var(--gruvbox-fg0) !important;
+  transition: background-color 0.2s ease;
+}
+
+/* Captions */
+caption, figcaption {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--gruvbox-fg3);
+  text-align: center;
+  margin-top: 0.75rem;
+  caption-side: bottom;
+}
+
+/* ==========================================================================
+   9. OTROS Y RESPONSIVE
+   ========================================================================== */
+
+/* Fechas */
+.listing-date, .date, time, .quarto-post .metadata .date {
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  font-size: 0.9em;
+}
+
+/* Categorías */
+.listing-categories, .quarto-category, .categories {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Breadcrumbs */
+.breadcrumb, nav[aria-label="breadcrumb"] {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+
+/* Identificadores Sección */
+.quarto-section-identifier, .section-number {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+}
+
+/* Notas al pie */
+.footnotes, .footnote-ref, aside {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--gruvbox-fg3);
+}
+
+/* Inline cites */
+q, cite {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quarto-title-banner { padding: 3rem 1rem; border-left-width: 5px; }
+  h1 { font-size: 2.5rem; }
+  .quarto-post { padding: 1.5rem; border-left-width: 3px; }
+  #theme-toggle { bottom: 20px; right: 20px; width: 45px; height: 45px; }
+  .navbar-nav .nav-link::before { display: none; }
+  thead th, tbody td { padding: 0.75rem 1rem; }
+}
+
+/* ==========================================================================
+   10. GRIDS DE QUARTO
+   ========================================================================== */
+
+/* Contenedor principal del grid */
+.quarto-listing-grid,
+.list.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+  padding: 0;
+}
+
+/* Items individuales del grid */
+.quarto-listing-grid .g-col-1,
+.list.grid .g-col-1 {
+  background: linear-gradient(135deg, var(--gruvbox-bg0) 0%, var(--gruvbox-bg1) 100%) !important;
+  border: 1px solid var(--glass-border);
+  border-radius: 6px;
+  border-top: 4px solid var(--gruvbox-blue);
+  padding: 2rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* CRÍTICO: Forzar fondo en contenedor interno de la card */
+.quarto-listing-grid .card,
+.quarto-listing-grid .card-body,
+.list.grid .card,
+.list.grid .card-body {
+  background: var(--gruvbox-bg0) !important;
+  background-color: var(--gruvbox-bg0) !important;
+  border: none !important;
+}
+
+/* Asegurar que todos los divs internos hereden el fondo */
+.quarto-listing-grid .g-col-1 > *,
+.list.grid .g-col-1 > * {
+  background: transparent !important;
+}
+
+/* Asegurar contraste de texto adecuado */
+.quarto-listing-grid .card-title,
+.quarto-listing-grid .card-text,
+.quarto-listing-grid h1, .quarto-listing-grid h2, 
+.quarto-listing-grid h3, .quarto-listing-grid h4,
+.quarto-listing-grid p,
+.list.grid .card-title,
+.list.grid .card-text,
+.list.grid h1, .list.grid h2, 
+.list.grid h3, .list.grid h4,
+.list.grid p {
+  color: var(--gruvbox-fg0) !important;
+}
+
+.quarto-listing-grid .g-col-1:hover,
+.list.grid .g-col-1:hover {
+  transform: translateY(-4px);
+  border-top-color: var(--gruvbox-yellow);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Títulos en grid items */
+.quarto-listing-grid .listing-title,
+.list.grid .listing-title {
+  margin-bottom: 0.75rem;
+}
+
+.quarto-listing-grid .listing-title a,
+.list.grid .listing-title a {
+  color: var(--gruvbox-fg0) !important;
+  font-weight: 800;
+  font-size: 1.5rem;
+  border-bottom: none;
+  letter-spacing: -0.02em;
+}
+
+.quarto-listing-grid .listing-title a:hover,
+.list.grid .listing-title a:hover {
+  color: var(--gruvbox-blue) !important;
+}
+
+/* Descripciones */
+.quarto-listing-grid .listing-description,
+.list.grid .listing-description {
+  color: var(--gruvbox-fg2);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+/* Metadata (fecha, autor, etc.) */
+.quarto-listing-grid .listing-date,
+.quarto-listing-grid .listing-author,
+.list.grid .listing-date,
+.list.grid .listing-author {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: var(--gruvbox-fg4);
+  letter-spacing: 0.03em;
+}
+
+/* Categorías en grid */
+.quarto-listing-grid .listing-categories,
+.list.grid .listing-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.quarto-listing-grid .listing-category,
+.list.grid .listing-category {
+  background: var(--gruvbox-bg2);
+  color: var(--gruvbox-fg0) !important;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.quarto-listing-grid .listing-category:hover,
+.list.grid .listing-category:hover {
+  background: var(--gruvbox-aqua);
+  color: var(--gruvbox-bg0-hard) !important;
+  transform: translateY(-2px);
+}
+
+/* Imágenes en grid items */
+.quarto-listing-grid .listing-image,
+.list.grid .listing-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  border: 1px solid var(--glass-border);
+  transition: transform 0.3s ease;
+}
+
+.quarto-listing-grid .listing-image:hover,
+.list.grid .listing-image:hover {
+  transform: scale(1.02);
+}
+
+/* Indicador de lectura (si aplica) */
+.quarto-listing-grid .listing-reading-time,
+.list.grid .listing-reading-time {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 200;
+  font-size: 0.75rem;
+  color: var(--gruvbox-fg4);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.quarto-listing-grid .listing-reading-time::before,
+.list.grid .listing-reading-time::before {
+  content: 'Tiempo de lectura:';
+  font-size: 0.9rem;
+}
+
+/* Grid de 2 columnas en pantallas grandes */
+@media (min-width: 992px) {
+  .quarto-listing-grid.cols-2,
+  .list.grid.cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Grid de 3 columnas en pantallas muy grandes */
+@media (min-width: 1200px) {
+  .quarto-listing-grid.cols-3,
+  .list.grid.cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Responsive: 1 columna en móviles */
+@media (max-width: 768px) {
+  .quarto-listing-grid,
+  .list.grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .quarto-listing-grid .g-col-1,
+  .list.grid .g-col-1 {
+    padding: 1.5rem;
+    border-top-width: 3px;
+  }
+  
+  .quarto-listing-grid .listing-image,
+  .list.grid .listing-image {
+    height: 150px;
+  }
+}

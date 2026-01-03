@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>el espín contrario</title>
+<link>https://aangcontreras.github.io/el-espin-contrario/posts/</link>
+<atom:link href="https://aangcontreras.github.io/el-espin-contrario/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>Sitio web personal de Angel Contreras Espinosa</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Tue, 30 Dec 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>De Físico en proceso a: el espín contrario</title>
+  <dc:creator>Angel Contreras</dc:creator>
+  <link>https://aangcontreras.github.io/el-espin-contrario/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Como comento brevemente en la página principal de este sitio, en las dos (o tres) primeras versiones de mi blog, éste se llamaba <em>Físico en proceso</em> y estaba inspirado en la idea de relatar la vida cotidiana de alguien que estudiaba la carrera de Física sin otro afán aparte de compartir cosas que pudieran ser útiles para gente nueva que estuviera atravesando por el mismo camino de estudiar Física. Sin embargo, mi camino se vio intervenido por una serie de eventos que comenzó con la pandemia de 2020 (curiosamente coincidiendo con el inicio de este blog) que desencadenó una etapa muy difícil a nivel personal y repercutiendo eventualmente en mi salida de la universidad en marzo de 2023.</p>
+<p>Al abandonar mis estudios, me tomé un momento para descansar emocionalmente y plantearme lo que haría en adelante. Al estar en una etapa complicada económicamente en casa y haber tenido la suficiente edad para buscar un empleo medianamente formal, decidí enfocarme en ingresar al mundo laboral. Irónicamente fue durante los años de pandemia que comenzó mi interés y pasión por la computación y el diseño gráfico, dos cosas que se mantienen bastante alejadas de la física, pero que me complementan muy bien como persona y han sido muy útiles en mi vida.</p>
+<p>Con respecto al diseño gráfico, no me fue posible (aún) aplicar a roles relacionados con esta área, sin embargo, saber (al menos lo esencial) de diseño me permitió en más de una ocasión el poder destacar en mis presentaciones y postulaciones a empleos. Además, ha sido provechoso para otros proyectos personales y emprendimientos familiares, por lo que recomiendo a cualquiera aprender los fundamentos del diseño gráfico.</p>
+<p>En cuanto a la parte computacional, ésta fue la más profunda conceptualmente. Aprendí programación, sistemas operativos, qué era la terminal y los comandos básicos para interactuar con cada sistema. Fue cuando conocí Linux y me enamoré del movimiento del software de código abierto. Algo que me tomó muchísimo tiempo comprender fue el cómo funcionaba la web, qué es un navegador y cómo se diferencia de un buscador, qué es el backend, el frontend, las bases de datos SQL y NoSQL, las APIs, los protocolos HTTP, HTTPS, FTP, SMTP, IMAP, POP3, los servidores Apache y NGINX, los hostings, VPS, los servidores DNS, los dominios, las IP, entre muchas otras cosas. Si bien varios de estos temas los aprendí de manera superficial, fue lo que me permitió poder entender más cómo funciona el mundo actual a través de la tecnología.</p>
+<p>Todo eso sucedió en pandemia, sin embargo, en el momento en el que abandoné mis estudios y al no saber hacer otra cosa que no fuera física y matemáticas, fue que volteé a ver estas habilidades (computación y diseño gráfico) de otra forma y me decidí a sacarles el mayor provecho posible. Así, habiendo aprendido las tecnologías básicas del desarrollo web fue que pude aplicar a empleos relacionados con el desarrollo de software (web en la mayoría de los casos) de manera que en cuestión de un par de meses pude conseguir un empleo remoto bajo el rol de practicante de desarrollo de aplicaciones web para una empresa estadounidense. Honestamente creo que ha sido el suceso más importante en mi vida hasta ahora, pues fue el <em>empujón</em> que necesitaba para salir adelante en la vida.</p>
+<p>Por otro lado, fue gracias a un viejo amigo que me convencí de retomar mis estudios universitarios y concluir una licenciatura. Sabía que me gustaba la física, pero no parecía tener un buen rendimiento y después de todo, había dejado la carrera por muchos fracasos consecutivos en mi formación y, a pesar de que mis profesores notaron (me lo dijeron) que genuinamente me interesaban las clases y hacía buenas reflexiones sobre los temas, en la práctica, en los exámenes no parecía estar siendo suficiente. Además de tener varios huecos en mi aprendizaje generados durante la pandemia, en definitiva necesitaba un cambio de ambiente que me permitiera tener mayor estabilidad académica y emocional. Fue por esto que finalmente decidí no volver a Física y mejor cambiarme a la carrera de Matemáticas. Aproximadamente la mitad de la carrera eran las mismas materias, por lo que no comenzaría desde cero, además, fue tras mis cursos de mecánica cuántica y de relatividad que descubrí lo mucho que me atraía comprender la parte matemática rigurosa que subyace inherentemente en cada uno de estos formalismos físicos teóricos. Fue así que tomé una de las mejores decisiones hasta ahora y comencé la carrera de matemáticas en agosto de 2023.</p>
+<p>En cuestión de meses pasé de ser un sujeto hundido en la depresión que ni estudiaba ni trabajaba a alguien con un empleo formal y a la mitad de una nueva carrera por delante, con una autoestima mucho más estable. Desde entonces las cosas genuinamente comenzaron a mejorar. Nunca seré capaz de recuperar el tiempo perdido, pero sí he podido aprovechar mi tiempo de mejor manera desde entonces. Sigo atravesando por varios altibajos (tal como el momento en el que escribo esto), pero al menos en este punto creo que aprendo cosas muy importantes de mi, de mi carrera y de la vida con cada paso correcto o incorrecto que doy. Probablemente casi nadie lea esto y hay muchas historias diferentes para cada persona, pero espero que pueda servirle a alguien esta breve historia como muestra de que es posible cambiar nuestro rumbo, sólo falta detenerse por un momento a respirar, mantener la calma, pensar con sensatez lo que deseamos y podemos hacer con nuestra vida en ese instante y finalmente… Hacerlo.</p>
+<p><img src="https://aangcontreras.github.io/el-espin-contrario/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>blog</category>
+  <guid>https://aangcontreras.github.io/el-espin-contrario/posts/welcome/</guid>
+  <pubDate>Tue, 30 Dec 2025 06:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

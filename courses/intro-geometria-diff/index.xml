@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>el espín contrario</title>
+<link>https://aangcontreras.github.io/el-espin-contrario/courses/intro-geometria-diff/</link>
+<atom:link href="https://aangcontreras.github.io/el-espin-contrario/courses/intro-geometria-diff/index.xml" rel="self" type="application/rss+xml"/>
+<description>Sitio web personal de Angel Contreras Espinosa</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Sat, 03 Jan 2026 06:52:27 GMT</lastBuildDate>
+<item>
+  <title>Lección 1</title>
+  <link>https://aangcontreras.github.io/el-espin-contrario/courses/intro-geometria-diff/leccion-1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="contenido-de-la-lección" class="level1">
+<h1>Contenido de la lección</h1>
+<p>…</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://aangcontreras.github.io/el-espin-contrario/courses/intro-geometria-diff/leccion-1.html</guid>
+  <pubDate>Sat, 03 Jan 2026 06:52:27 GMT</pubDate>
+</item>
+</channel>
+</rss>

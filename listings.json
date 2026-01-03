@@ -1,0 +1,34 @@
+[
+  {
+    "listing": "/courses/intro-procesos-estocasticos/index.html",
+    "items": [
+      "/courses/intro-procesos-estocasticos/leccion-1.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/courses/index.html",
+    "items": [
+      "/courses/intro-geometria-diff/index.html",
+      "/courses/intro-procesos-estocasticos/index.html",
+      "/courses/intro-teoria-info-cuantica/index.html"
+    ]
+  },
+  {
+    "listing": "/courses/intro-geometria-diff/index.html",
+    "items": [
+      "/courses/intro-geometria-diff/leccion-1.html"
+    ]
+  },
+  {
+    "listing": "/courses/intro-teoria-info-cuantica/index.html",
+    "items": [
+      "/courses/intro-teoria-info-cuantica/leccion-1.html"
+    ]
+  }
+]

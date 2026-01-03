@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "¡Hola!",
+    "section": "",
+    "text": "Esta es la tercer (o cuarta quizás) versión de mi sitio personal. Solía llamarse Físico en proceso sin embargo, por una serie de desafortunados eventos tuve la oportunidad de tomar un cambio de rumbo en mis estudios hacia matemáticas puras, cuestión por la que ya no me pareció un nombre apropiado para este sitio.\nPor otro lado, la física no deja de estar presente en mi vida y mis intereses académicos. Actualmente tengo la intención de realizar una maestría en ciencias computacionales y un doctorado en física.\nEs por todo esto que este sitio será una recopilación de publicaciones (y con suerte mini-cursos) sobre matemáticas, física y ciencias computacionales, esperando que sea de utilidad, en primer lugar para mí mismo, pues poseo una pésima memoria y en segundo lugar, para cualquier persona que al igual que yo, se encuentra interesado por esta intersección de disciplinas y busca información en español.\nPor otro lado, también habrá publicaciones con reflexiones personales y tutoriales o tips sobre alguna tecnología."
+  },
+  {
+    "objectID": "courses/intro-teoria-info-cuantica/leccion-1.html",
+    "href": "courses/intro-teoria-info-cuantica/leccion-1.html",
+    "title": "Lección 1",
+    "section": "",
+    "text": "Contenido de la lección\n…"
+  },
+  {
+    "objectID": "courses/intro-geometria-diff/leccion-1.html",
+    "href": "courses/intro-geometria-diff/leccion-1.html",
+    "title": "Lección 1",
+    "section": "",
+    "text": "Contenido de la lección\n…"
+  },
+  {
+    "objectID": "courses/intro-procesos-estocasticos/index.html",
+    "href": "courses/intro-procesos-estocasticos/index.html",
+    "title": "Introducción a Procesos Estocásticos",
+    "section": "",
+    "text": "Este será el espacio para compartir todo lo que aprenda sobre procesos estocásticos\n\n\n\n\n\n\n\n\n\n\nTítulo\n\n\n\nDescripción\n\n\n\nTiempo de lectura\n\n\n\n\n\n\n\n\nLección 1\n\n\n\n\n\n1 minutos\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "De Físico en proceso a: el espín contrario\n\n\n\nblog\n\n\n\n\n\n\n\n\n\n30 dic 2025\n\n\nAngel Contreras\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "De Físico en proceso a: el espín contrario",
+    "section": "",
+    "text": "Como comento brevemente en la página principal de este sitio, en las dos (o tres) primeras versiones de mi blog, éste se llamaba Físico en proceso y estaba inspirado en la idea de relatar la vida cotidiana de alguien que estudiaba la carrera de Física sin otro afán aparte de compartir cosas que pudieran ser útiles para gente nueva que estuviera atravesando por el mismo camino de estudiar Física. Sin embargo, mi camino se vio intervenido por una serie de eventos que comenzó con la pandemia de 2020 (curiosamente coincidiendo con el inicio de este blog) que desencadenó una etapa muy difícil a nivel personal y repercutiendo eventualmente en mi salida de la universidad en marzo de 2023.\nAl abandonar mis estudios, me tomé un momento para descansar emocionalmente y plantearme lo que haría en adelante. Al estar en una etapa complicada económicamente en casa y haber tenido la suficiente edad para buscar un empleo medianamente formal, decidí enfocarme en ingresar al mundo laboral. Irónicamente fue durante los años de pandemia que comenzó mi interés y pasión por la computación y el diseño gráfico, dos cosas que se mantienen bastante alejadas de la física, pero que me complementan muy bien como persona y han sido muy útiles en mi vida.\nCon respecto al diseño gráfico, no me fue posible (aún) aplicar a roles relacionados con esta área, sin embargo, saber (al menos lo esencial) de diseño me permitió en más de una ocasión el poder destacar en mis presentaciones y postulaciones a empleos. Además, ha sido provechoso para otros proyectos personales y emprendimientos familiares, por lo que recomiendo a cualquiera aprender los fundamentos del diseño gráfico.\nEn cuanto a la parte computacional, ésta fue la más profunda conceptualmente. Aprendí programación, sistemas operativos, qué era la terminal y los comandos básicos para interactuar con cada sistema. Fue cuando conocí Linux y me enamoré del movimiento del software de código abierto. Algo que me tomó muchísimo tiempo comprender fue el cómo funcionaba la web, qué es un navegador y cómo se diferencia de un buscador, qué es el backend, el frontend, las bases de datos SQL y NoSQL, las APIs, los protocolos HTTP, HTTPS, FTP, SMTP, IMAP, POP3, los servidores Apache y NGINX, los hostings, VPS, los servidores DNS, los dominios, las IP, entre muchas otras cosas. Si bien varios de estos temas los aprendí de manera superficial, fue lo que me permitió poder entender más cómo funciona el mundo actual a través de la tecnología.\nTodo eso sucedió en pandemia, sin embargo, en el momento en el que abandoné mis estudios y al no saber hacer otra cosa que no fuera física y matemáticas, fue que volteé a ver estas habilidades (computación y diseño gráfico) de otra forma y me decidí a sacarles el mayor provecho posible. Así, habiendo aprendido las tecnologías básicas del desarrollo web fue que pude aplicar a empleos relacionados con el desarrollo de software (web en la mayoría de los casos) de manera que en cuestión de un par de meses pude conseguir un empleo remoto bajo el rol de practicante de desarrollo de aplicaciones web para una empresa estadounidense. Honestamente creo que ha sido el suceso más importante en mi vida hasta ahora, pues fue el empujón que necesitaba para salir adelante en la vida.\nPor otro lado, fue gracias a un viejo amigo que me convencí de retomar mis estudios universitarios y concluir una licenciatura. Sabía que me gustaba la física, pero no parecía tener un buen rendimiento y después de todo, había dejado la carrera por muchos fracasos consecutivos en mi formación y, a pesar de que mis profesores notaron (me lo dijeron) que genuinamente me interesaban las clases y hacía buenas reflexiones sobre los temas, en la práctica, en los exámenes no parecía estar siendo suficiente. Además de tener varios huecos en mi aprendizaje generados durante la pandemia, en definitiva necesitaba un cambio de ambiente que me permitiera tener mayor estabilidad académica y emocional. Fue por esto que finalmente decidí no volver a Física y mejor cambiarme a la carrera de Matemáticas. Aproximadamente la mitad de la carrera eran las mismas materias, por lo que no comenzaría desde cero, además, fue tras mis cursos de mecánica cuántica y de relatividad que descubrí lo mucho que me atraía comprender la parte matemática rigurosa que subyace inherentemente en cada uno de estos formalismos físicos teóricos. Fue así que tomé una de las mejores decisiones hasta ahora y comencé la carrera de matemáticas en agosto de 2023.\nEn cuestión de meses pasé de ser un sujeto hundido en la depresión que ni estudiaba ni trabajaba a alguien con un empleo formal y a la mitad de una nueva carrera por delante, con una autoestima mucho más estable. Desde entonces las cosas genuinamente comenzaron a mejorar. Nunca seré capaz de recuperar el tiempo perdido, pero sí he podido aprovechar mi tiempo de mejor manera desde entonces. Sigo atravesando por varios altibajos (tal como el momento en el que escribo esto), pero al menos en este punto creo que aprendo cosas muy importantes de mi, de mi carrera y de la vida con cada paso correcto o incorrecto que doy. Probablemente casi nadie lea esto y hay muchas historias diferentes para cada persona, pero espero que pueda servirle a alguien esta breve historia como muestra de que es posible cambiar nuestro rumbo, sólo falta detenerse por un momento a respirar, mantener la calma, pensar con sensatez lo que deseamos y podemos hacer con nuestra vida en ese instante y finalmente… Hacerlo."
+  },
+  {
+    "objectID": "courses/intro-procesos-estocasticos/leccion-1.html",
+    "href": "courses/intro-procesos-estocasticos/leccion-1.html",
+    "title": "Lección 1",
+    "section": "",
+    "text": "Contenido de la lección\n…"
+  },
+  {
+    "objectID": "courses/index.html",
+    "href": "courses/index.html",
+    "title": "Mini cursos",
+    "section": "",
+    "text": "Introducción a la Geometría Diferencial\n\n\n\nCursos\n\n\n\n\n\n\n\n\n\n3 ene 2026\n\n\nAngel Contreras\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducción a Procesos Estocásticos\n\n\n\nCursos\n\n\n\n\n\n\n\n\n\n3 ene 2026\n\n\nAngel Contreras\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducción a la Teoría de la Información Cuántica\n\n\n\nCursos\n\n\n\n\n\n\n\n\n\n3 ene 2026\n\n\nAngel Contreras\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "courses/intro-geometria-diff/index.html",
+    "href": "courses/intro-geometria-diff/index.html",
+    "title": "Introducción a la Geometría Diferencial",
+    "section": "",
+    "text": "Este será el espacio para compartir todo lo que aprenda sobre geometría diferencial\n\n\n\n\n\n\n\n\n\n\nTítulo\n\n\n\nDescripción\n\n\n\nTiempo de lectura\n\n\n\n\n\n\n\n\nLección 1\n\n\n\n\n\n1 minutos\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "courses/intro-teoria-info-cuantica/index.html",
+    "href": "courses/intro-teoria-info-cuantica/index.html",
+    "title": "Introducción a la Teoría de la Información Cuántica",
+    "section": "",
+    "text": "Este será el espacio para compartir todo lo que aprenda sobre teoría de la información cuántica\n\n\n\n\n\n\n\n\n\n\nTítulo\n\n\n\nDescripción\n\n\n\nTiempo de lectura\n\n\n\n\n\n\n\n\nLección 1\n\n\n\n\n\n1 minutos\n\n\n\n\n\n\nNo hay resultados"
+  }
+]

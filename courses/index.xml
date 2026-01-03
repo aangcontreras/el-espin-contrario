@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>el espín contrario</title>
+<link>https://aangcontreras.github.io/el-espin-contrario/courses/</link>
+<atom:link href="https://aangcontreras.github.io/el-espin-contrario/courses/index.xml" rel="self" type="application/rss+xml"/>
+<description>Sitio web personal de Angel Contreras Espinosa</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Sat, 03 Jan 2026 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Introducción a la Geometría Diferencial</title>
+  <dc:creator>Angel Contreras</dc:creator>
+  <link>https://aangcontreras.github.io/el-espin-contrario/courses/intro-geometria-diff/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Este será el espacio para compartir todo lo que aprenda sobre geometría diferencial</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Título
+</th>
+
+<th>
+Descripción
+</th>
+
+<th>
+Tiempo de lectura
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1767423067664" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Lección 1" data-listing-filename-sort="leccion-1.qmd">
+<td>
+<a href="../../courses/intro-geometria-diff/leccion-1.html" class="title listing-title">Lección 1</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:courses/intro-geometria-diff/leccion-1.html --></span>
+</td>
+<td>
+<span class="listing-reading-time">1 minutos</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No hay resultados</div>
+</div> ]]></description>
+  <category>Cursos</category>
+  <guid>https://aangcontreras.github.io/el-espin-contrario/courses/intro-geometria-diff/</guid>
+  <pubDate>Sat, 03 Jan 2026 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Introducción a Procesos Estocásticos</title>
+  <dc:creator>Angel Contreras</dc:creator>
+  <link>https://aangcontreras.github.io/el-espin-contrario/courses/intro-procesos-estocasticos/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Este será el espacio para compartir todo lo que aprenda sobre procesos estocásticos</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Título
+</th>
+
+<th>
+Descripción
+</th>
+
+<th>
+Tiempo de lectura
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1767423067664" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Lección 1" data-listing-filename-sort="leccion-1.qmd">
+<td>
+<a href="../../courses/intro-procesos-estocasticos/leccion-1.html" class="title listing-title">Lección 1</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:courses/intro-procesos-estocasticos/leccion-1.html --></span>
+</td>
+<td>
+<span class="listing-reading-time">1 minutos</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No hay resultados</div>
+</div> ]]></description>
+  <category>Cursos</category>
+  <guid>https://aangcontreras.github.io/el-espin-contrario/courses/intro-procesos-estocasticos/</guid>
+  <pubDate>Sat, 03 Jan 2026 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Introducción a la Teoría de la Información Cuántica</title>
+  <dc:creator>Angel Contreras</dc:creator>
+  <link>https://aangcontreras.github.io/el-espin-contrario/courses/intro-teoria-info-cuantica/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Este será el espacio para compartir todo lo que aprenda sobre teoría de la información cuántica</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Título
+</th>
+
+<th>
+Descripción
+</th>
+
+<th>
+Tiempo de lectura
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1767423067665" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Lección 1" data-listing-filename-sort="leccion-1.qmd">
+<td>
+<a href="../../courses/intro-teoria-info-cuantica/leccion-1.html" class="title listing-title">Lección 1</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:courses/intro-teoria-info-cuantica/leccion-1.html --></span>
+</td>
+<td>
+<span class="listing-reading-time">1 minutos</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No hay resultados</div>
+</div> ]]></description>
+  <category>Cursos</category>
+  <guid>https://aangcontreras.github.io/el-espin-contrario/courses/intro-teoria-info-cuantica/</guid>
+  <pubDate>Sat, 03 Jan 2026 06:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
