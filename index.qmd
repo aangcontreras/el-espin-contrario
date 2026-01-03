@@ -1,0 +1,23 @@
+---
+lang: es-MX
+title: "¡Hola!"
+image: profile.jpeg
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aang-contreras/
+    - icon: github
+      text: Github
+      href: https://github.com/aangcontreras
+
+---
+
+Esta es la tercer (o cuarta quizás) versión de mi sitio personal. Solía llamarse _Físico en proceso_ sin embargo, por una serie de ~~des~~afortunados eventos tuve la oportunidad de tomar un cambio de rumbo en mis estudios hacia matemáticas _puras_, cuestión por la que ya no me pareció un nombre apropiado para este sitio.
+
+Por otro lado, la física no deja de estar presente en mi vida y mis intereses académicos. Actualmente tengo la intención de realizar una maestría en ciencias computacionales y un doctorado en física.
+
+Es por todo esto que este sitio será una recopilación de publicaciones (y con suerte mini-cursos) sobre matemáticas, física y ciencias computacionales, esperando que sea de utilidad, en primer lugar para mí mismo, pues poseo una pésima memoria y en segundo lugar, para cualquier persona que al igual que yo, se encuentra interesado por esta intersección de disciplinas y busca información en español.
+
+Por otro lado, también habrá publicaciones con reflexiones personales y tutoriales o tips sobre alguna tecnología.

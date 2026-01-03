@@ -1,0 +1,19 @@
+---
+lang: es-MX
+title: "Introducción a la Teoría de la Información Cuántica"
+author: "Angel Contreras"
+date: today
+categories: [Cursos]
+listing:
+  contents: "*.qmd"
+  feed: true
+  sort: "date desc"
+  type: table
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [title, description, reading-time]
+page-layout: full
+---
+
+Este será el espacio para compartir todo lo que aprenda sobre teoría de la información cuántica
