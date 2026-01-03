@@ -9,8 +9,8 @@
 <link>https://aangcontreras.github.io/el-espin-contrario/courses/</link>
 <atom:link href="https://aangcontreras.github.io/el-espin-contrario/courses/index.xml" rel="self" type="application/rss+xml"/>
 <description>Sitio web personal de Angel Contreras Espinosa</description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Sat, 03 Jan 2026 06:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Sat, 03 Jan 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Introducción a la Geometría Diferencial</title>
   <dc:creator>Angel Contreras</dc:creator>
@@ -47,7 +47,7 @@ Tiempo de lectura
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1767423067664" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Lección 1" data-listing-filename-sort="leccion-1.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1767423972699" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Lección 1" data-listing-filename-sort="leccion-1.qmd">
 <td>
 <a href="../../courses/intro-geometria-diff/leccion-1.html" class="title listing-title">Lección 1</a>
 </td>
@@ -66,7 +66,7 @@ Tiempo de lectura
 </div> ]]></description>
   <category>Cursos</category>
   <guid>https://aangcontreras.github.io/el-espin-contrario/courses/intro-geometria-diff/</guid>
-  <pubDate>Sat, 03 Jan 2026 06:00:00 GMT</pubDate>
+  <pubDate>Sat, 03 Jan 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Introducción a Procesos Estocásticos</title>
@@ -104,7 +104,7 @@ Tiempo de lectura
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1767423067664" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Lección 1" data-listing-filename-sort="leccion-1.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1767423972699" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Lección 1" data-listing-filename-sort="leccion-1.qmd">
 <td>
 <a href="../../courses/intro-procesos-estocasticos/leccion-1.html" class="title listing-title">Lección 1</a>
 </td>
@@ -123,7 +123,7 @@ Tiempo de lectura
 </div> ]]></description>
   <category>Cursos</category>
   <guid>https://aangcontreras.github.io/el-espin-contrario/courses/intro-procesos-estocasticos/</guid>
-  <pubDate>Sat, 03 Jan 2026 06:00:00 GMT</pubDate>
+  <pubDate>Sat, 03 Jan 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Introducción a la Teoría de la Información Cuántica</title>
@@ -161,7 +161,7 @@ Tiempo de lectura
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1767423067665" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Lección 1" data-listing-filename-sort="leccion-1.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1767423972699" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Lección 1" data-listing-filename-sort="leccion-1.qmd">
 <td>
 <a href="../../courses/intro-teoria-info-cuantica/leccion-1.html" class="title listing-title">Lección 1</a>
 </td>
@@ -180,7 +180,7 @@ Tiempo de lectura
 </div> ]]></description>
   <category>Cursos</category>
   <guid>https://aangcontreras.github.io/el-espin-contrario/courses/intro-teoria-info-cuantica/</guid>
-  <pubDate>Sat, 03 Jan 2026 06:00:00 GMT</pubDate>
+  <pubDate>Sat, 03 Jan 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

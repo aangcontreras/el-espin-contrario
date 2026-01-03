@@ -9,8 +9,8 @@
 <link>https://aangcontreras.github.io/el-espin-contrario/posts/</link>
 <atom:link href="https://aangcontreras.github.io/el-espin-contrario/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Sitio web personal de Angel Contreras Espinosa</description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 30 Dec 2025 06:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Tue, 30 Dec 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>De Físico en proceso a: el espín contrario</title>
   <dc:creator>Angel Contreras</dc:creator>
@@ -35,7 +35,7 @@
  ]]></description>
   <category>blog</category>
   <guid>https://aangcontreras.github.io/el-espin-contrario/posts/welcome/</guid>
-  <pubDate>Tue, 30 Dec 2025 06:00:00 GMT</pubDate>
+  <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
